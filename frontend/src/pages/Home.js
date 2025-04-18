@@ -62,7 +62,7 @@ function Home() {
 
     const fetchExpenses = async () => {
         try {
-            const url = `${APIUrl}/expenses`;
+            const url = `https://expense-tracker-pink-beta-20.vercel.app/expenses`;
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
